@@ -22,6 +22,6 @@ def jumlah2(*listangka):
     total = total + angka
   return (listangka, total)
 
- total = jumlah2(33,44,55)
+total = jumlah2(33,44,55)
 
 print(f"Total {listangka} : {total}")
