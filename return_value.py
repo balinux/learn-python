@@ -17,7 +17,7 @@ print(total)
 # menggunakan tuple untuk return banyak data
 
 def jumlah2(*listangka):
-  total=0;
+  total=0
   for angka in listangka:
     total = total + angka
   return (listangka, total)
