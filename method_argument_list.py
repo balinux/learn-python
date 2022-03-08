@@ -22,6 +22,6 @@ def jumlah3(*listangka):
   total=0;
   for angka in listangka:
     total = total + angka
-  print(f"Total = {listangka} = {total}")
+    print(f"Total = {listangka} = {total}")
 
 jumlah3(33,44,55)

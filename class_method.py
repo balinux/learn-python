@@ -8,7 +8,7 @@ class Manusia:
 
     @classmethod
     def pengertian(cls):
-        print(f'manusia memiliki {cls.jumlah_tangan} tangan')
+        print(f'manusia bernama memiliki {cls.jumlah_tangan} tangan')
 
 # class Manusia:
 #   jumlah_tangan = 2 # class variable
