@@ -10,3 +10,5 @@ path_target = str(Path(__file__).absolute().parent) + "/to/" + file_name
 os.rename(path_source, path_target)
 
 
+# buat scheduler untuk melakukan pengecekan file
+# pindahkab berdasarkan extensi ke folder sesuai extensi
