@@ -12,6 +12,14 @@ dim = (width, height)
 # resize image
 resized = cv2.resize(img,dim,interpolation=cv2.INTER_AREA)
 
+font = cv2.FONT_HERSHEY_SIMPLEX
+
+cv2.putText(resized, 'Balinux', (10, 200), font, 2, (255, 255, 255), 5, cv2.LINE_AA)
+
+cv2.putText(resized, 'Ganteng', (10, 500), font, 2, (255, 255, 255), 5, cv2.LINE_AA)
+
+print('Line AA : ',cv2.LINE_AA)
+
 print('Resized Dimensions : ',resized.shape)
 
 cv2.imshow("resied", resized)
