@@ -31,5 +31,5 @@ while True:
         function_contact.find_contact(contact_data)
     else:
         print("menu tidak tersedia")
-        
+
 print('program selesai berjalan, sampai jumpa')
